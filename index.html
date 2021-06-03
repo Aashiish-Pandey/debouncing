@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src ='./main.js'></script>
+    <title>search bar</title>
+   
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
 </head>
 <body>
 
-    <input type ="text" onkeyup="betterFunction()"
-    
+    <h3>State capital lookup</h3>
+    <input type = "text" id = "search" placeholder="Enter state name or abbr" />
+    <div>
+        <div id ="match-list"></div>
+    </div>
+    <script src ='./js/main.js'></script>
 </body>
 </html>
